@@ -54,6 +54,7 @@ body {
 
     img {
         height: 80%;
+        max-width: 70%;
     }
 }
 
