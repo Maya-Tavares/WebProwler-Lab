@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    --color-light: #ffffff;
+    --color-purple: #5f0769;
+    --color-purple-light: rgb(125, 36, 185);
+    --color-green: #0c8216;
+    --color-black: #000000;
+    --color-gray: #1d1d1d;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.custom-size {
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: .5rem;
+}
+
+.custom-p {
+    padding: 7rem;
+}
+
+.navbar {
+    a:hover {
+        color: var(--color-purple-light);
+        transition: .4s;
+    }
+}
+
+.carousel {
+
+    img {
+        max-height: 80vh;
+        min-height: 500px;
+    }
+
+}
+
+.storytelling {
+    min-height: 90vh;
+
+    img {
+        height: 80%;
+    }
+}
+
+/* cards */
+
+.card-group {
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.cards {
+    min-height: 60vh;
+}
+
+.card {
+
+    img {
+        width: 40%;
+        transition: .5s;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(30px 20px 2px var(--color-purple-light));
+    }
+}
+
+/* grid */
+
+.img-tam {
+    height: 50%;
+    width: 50%;
+}
+
+.custom-m {
+    margin-left: 5rem;
+}
+
+/* accordion */
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-purple-light);
+    color: var(--color-light);
+}
+
+/* card investir */
+
+.border-custom {
+    border-color: var(--color-purple-light);
+}
+
+.btn-custom {
+    background-color: var(--color-purple-light);
+    color: var(--color-light);
+}
+
+.btn-custom:hover {
+    background-color: var(--color-purple);
+    color: var(--color-light);
+}
+
+
+
+
+@media(width < 900px) {
+
+    .custom-m {
+        margin-left: auto;
+    }
+}
