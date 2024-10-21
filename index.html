@@ -14,7 +14,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/styles.css">
-
+    <link rel="shortcut icon" type="imagex/png" href="./icon/image.png">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                             <a class="nav-link m-2 fs-4" aria-current="page" href="#main">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link m-2 fs-4" href="#vantagens">Para Consumidores</a>
+                            <a class="nav-link m-2 fs-4" href="#vantagens">Diferenciais</a>
                         </li>
                         <a class="nav-link m-2 fs-4" href="#galeria">Galeria</a>
                         </li>
@@ -44,10 +44,22 @@
                             <a class="nav-link m-2 fs-4" href="#estrutura">Componentes</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link m-2 fs-4" href="#videos">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 fs-4" href="#concorra">Sorteios</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link m-2 fs-4" href="#historia">Startup</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link m-2 fs-4" href="#invista">Negocie</a>
+                            <a class="nav-link m-2 fs-4" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 fs-4" href="#redes">Redes Sociais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 fs-4" href="#invista">Seja Sócio</a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +148,7 @@
     <!-------------------------------------- fim -------------------------------------->
 
     <!-------------------------------------- Galeria -------------------------------------->
-    <section id="galeria" class="p-4">
+    <section id="galeria" class=" container p-5">
 
         <h2 class="custom-p fs-1 justify-content-center d-flex align-items-center border-top">
             Galeria
@@ -148,7 +160,7 @@
             programação e mecânica, além de ser uma plataforma de competições emocionantes.
         </p>
 
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide p-5">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -159,7 +171,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/prowler-desenvolvimento.jfif"
+                    <img src="./images/PHOTO-2024-10-13-14-15-05.jpg"
                         class="img-fluid border rounded-3 shadow-lg mb-4 w-100"
                         alt="Imagem da Equipe Pintando a Mascara do Robo">
                 </div>
@@ -195,7 +207,7 @@
     <!-------------------------------------- fim  -------------------------------------->
 
     <!-------------------------------------- Accordion -------------------------------------->
-    <section id="estrutura">
+    <section id="estrutura" class="container">
 
         <h2 class="custom-p fs-1 justify-content-center d-flex align-items-center">
             Sistemas de Armamento e Estrutura
@@ -266,12 +278,53 @@
     </section>
     <!-------------------------------------- fim card-------------------------------------->
 
+    <!-------------------------------------- Videos -------------------------------------->
+
+    <section id="videos">
+        <div class="container p-5">
+            <div class="row ">
+                <div class="col-md-6">
+                    <h2 class="text-center my-5">Veja o Prowler em movimento!</h2>
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/imG7mhqfNGY?si=cVBZcOPYA2Kzhux-"
+                            title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center my-5">Saiba como montamos:</h2>
+                    <div class="ratio ratio-4x3">
+                        <iframe src="https://www.youtube.com/embed/c1qLq-QIYLU?si=zeG874etP1118Nw1"
+                            title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------- fim videos -------------------------------------->
+
+    <!-------------------------------------- Concorra -------------------------------------->
+
+    <section id="concorra" class="container align-items-center">
+        <div class="card m-5 text-center">
+            <div class="card-header">
+                Concorra e Ganhe!
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Se inscreva para participar</h5>
+                <p class="card-text">Ao se inscrever abaixo você concorre à um Prowler para você, totalmente gratuito!
+                </p>
+                <a href="#" class="btn btn-custom">Inscrever-se</a>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------- fim concorra -------------------------------------->
+
     <!-------------------------------------- Storytelling -------------------------------------->
 
-    <section id="historia">
+    <section id="historia" class="container">
         <div class="storytelling d-flex align-items-center">
             <div class="row w-100 p-5">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 text-center justify-content-center align-items-center d-flex">
                     <img src="./icon/image.png" alt="mascara do prowler">
                 </div>
                 <div class="col-lg-6 text-center fw-normal">
@@ -316,11 +369,144 @@
         </div>
     </section>
 
-    <!--------------------------------------  fim storytelling-------------------------------------->
+    <!-------------------------------------- fim card-------------------------------------->
 
-    <section id="invista">
+    <!-------------------------------------- FAQ -------------------------------------->
 
-        <div class="card text-center custom-p border-0">
+    <section id="faq" class="container">
+        <h2 class="custom-p fs-1 justify-content-center d-flex align-items-center">
+            Perguntas Frequentes (FAQ)
+        </h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fs-2 text" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        O que são robôs de batalha?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        Robôs de batalha são máquinas controladas por rádio ou por software, projetadas
+                        para competir em combates controlados. Eles podem ser construídos com diferentes
+                        materiais, motores, armas e sistemas de controle, o que permite uma grande
+                        variedade de designs e estratégias de combate.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-2 text " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Como funcionam os robôs de batalha?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Os robôs de batalha são geralmente controlados por um sistema de rádio ou por um
+                        software que envia comandos para os motores e outros componentes do robô. Os
+                        robôs podem ser equipados com armas como martelos, serras, punhos e até mesmo
+                        armas de disparo.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-2 text " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Como posso participar de um campeonato de robôs de batalha?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Para participar de um campeonato, você precisa construir um robô que atenda às
+                        regras da competição. Consulte nosso site para saber mais sobre os próximos
+                        campeonatos e as categorias de robôs permitidas.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-2 text " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        Quais são as regras de um campeonato de robôs de batalha?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        As regras variam de acordo com o tipo de competição, mas geralmente incluem limites
+                        de peso, tamanho e armas permitidas. Também existem regras de segurança para
+                        garantir a segurança dos competidores e espectadores.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fs-2 text " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        Existe uma idade mínima para participar de um campeonato?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        A idade mínima varia de acordo com o campeonato, mas geralmente é permitida a
+                        participação de crianças acompanhadas de um adulto responsável.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------- fim FAQ -------------------------------------->
+
+    <!-------------------------------------- Redes -------------------------------------->
+
+    <h2 class="justify-content-center d-flex m-5">Nos siga nas redes:</h2>
+
+    <section id="redes" class="justify-content-center d-flex m-5">
+        <div class="container row justify-content-around">
+            <div class="card col-4" style="width: 18rem;">
+                <img src="./images/facebook-logo.png" class="card-img-top p-2" alt="Logotipo Facebook">
+                <div class="card-body">
+                    <h5 class="card-title">Facebook</h5>
+                    <p class="card-text">Saiba as últimas atualizações do Clube da Luta!</p>
+                    <a href="#" class="btn btn-custom">Seguir</a>
+                </div>
+            </div>
+            <div class="card col-4" style="width: 18rem;">
+                <img src="./images/Instagram_icon.png.webp" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Instagram</h5>
+                    <p class="card-text">Acompanhe nossas batalhas em tempo real!</p>
+                    <a href="#" class="btn btn-custom">Seguir</a>
+                </div>
+            </div>
+            <div class="card col-4" style="width: 18rem;">
+                <img src="./images/github-logo.png" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Github</h5>
+                    <p class="card-text">Veja os updates de nossos desenvolvedores!</p>
+                    <a href="#" class="btn btn-custom">Seguir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------------------------- fim redes -------------------------------------->
+
+    <!-------------------------------------- Investidores -------------------------------------->
+
+    <section id="invista" class="container">
+
+        <h2 class="justify-content-center d-flex m-5">Seja Sócio</h2>
+
+        <div class="card text-center p-4 border-0">
             <div class="card-header border-custom fw-bold">
                 Termo de Sigilo
             </div>
@@ -339,7 +525,7 @@
                 </p>
             </div>
 
-            <div class="card text-center custom-p border-0">
+            <div class="card text-center p-4 border-0">
                 <div class="card-header border-custom fw-bold">
                     Fechamento
                 </div>
@@ -352,12 +538,12 @@
                         investe em pesquisa e desenvolvimento para criar produtos de alta qualidade,
                         com ciclos de desenvolvimento curtos e custos otimizados.
                     </p>
-                    <a href="./html/fechamento.html" class="btn btn-lg btn-custom">Saiba Mais</a>
+                    <a href="./html/login.html" class="btn btn-lg btn-custom">Saiba Mais</a>
                 </div>
 
     </section>
 
-    <!-------------------------------------- fim grid -------------------------------------->
+    <!-------------------------------------- fim Investidores -------------------------------------->
 
     <footer>
         <div class="card fs-5">
@@ -368,6 +554,7 @@
                 <blockquote class="blockquot">
                     <p>Por: Clube da Luta</p>
                     <span class="blockquote-footer">2024</span>
+                    <span class="blockquote-footer">Fonte: Google Gemini</span>
                 </blockquote>
             </div>
         </div>
@@ -376,6 +563,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="./js/acesso.js"></script>
 </body>
 
 </html>
